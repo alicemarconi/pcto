@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int numero1;
+    int numero2;
+    printf("a quanti anni si può prendere la patente nel tuo paese?\n");
+    scanf("%d",&numero1);
+    printf("quanti anni hai?\n");
+    scanf("%d",&numero2);
+    if(numero2>=numero1) {
+        printf("puoi prendere la patente");
+    }
+    else{
+        printf("non puoi prendere la patente");
+    }
+}
